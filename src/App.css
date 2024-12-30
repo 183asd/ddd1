@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('1.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+  margin: 50px auto;
+  max-width: 800px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #e0e0e0;
+}
+
+button {
+  background: #4caf50;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+button:disabled {
+  background: #888;
+  cursor: not-allowed;
+}
+
+input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: calc(100% - 22px);
+  box-sizing: border-box;
+}
+
+.nft-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.listBox {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  width: 250px;
+  text-align: center;
+}
+
+.listImg img {
+  width: 100%;
+  height: auto;
+}
+
+.listTitle h3 {
+  font-size: 1.2em;
+  color: #333;
+  margin: 10px 0;
+}
+
+.listRemark p {
+  font-size: 0.9em;
+  color: #555;
+  margin: 10px;
+}
+
+.listBtnBox {
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  margin: 10px auto;
+  padding: 10px;
+  max-width: 600px;
+  text-align: center;
+}
+
+li button {
+  margin-top: 10px;
+}
